@@ -1,0 +1,58 @@
+@media (max-width: 1380px) {
+    .nav{width: 60%;}
+}
+@media (max-width: 1163px) {
+    .nav{width: 70%;}
+    .f_menu{width: 60%;}
+}
+@media (max-width: 1005px) {
+    .nav a{font-size: 14px;}
+}
+@media (max-width: 965px) {
+    .nav a{font-size: 12px;}
+    .price_header h1{font-size: 45px;}
+    .price_tabl{width: 250px;}
+    .price_logo{width: 6rem;height: 5.5rem;}
+    .sum{margin: 0.5rem 0;}
+    .sum h1{font-size: 30px;}
+    .sum sub{bottom: -0.4em;}
+    .price_tabl p{padding: 0.1rem 2rem;font-size: 12px;}
+    .f_menu{width: 70%;}
+    .f_menu a{font-size: 12px;}
+    .f_logo img{width: 25px;height: 25px;}
+    .f_logo span{font-size: 15px;}
+    .f_cop span{font-size: 10px;}
+    .visible-lg {display: none;}
+    .m-menu-link {display: block}
+}
+@media (max-width: 840px) {
+    .logo span{font-size: 20px;}
+    .price_main{flex-direction: column;align-items:center;}
+    .price_tabl{width: 20rem;margin: 1rem 1rem;}
+    .f_menu{display: none;}
+    .f_link{justify-content: center;}
+    .f_cop span{display: none;}
+    .f_cop{justify-content: center;}
+}
+@media (max-width: 424px){
+    .control_main h1{font-size: 30px;}
+}
+@media (max-width: 366px){
+    .header_main h1{font-size: 45px;}
+    .control_main h1{font-size: 25px;}
+}
+@media (max-width: 338px){
+    .logo img{width: 35px;height: 35px;}
+    .logo span{font-size: 17px;}
+    .header_main span{font-size: 11px;}
+    .header_main h1{font-size: 35px;}
+    .header_main p{width: 17rem;font-size: 12px;}
+    .price_header h1{font-size: 35px;}
+    .price_header span{font-size: 11px;}
+    .price_header p{width: 17rem;font-size: 12px;}
+    .price_tabl{width: 15rem;}
+    .control_main h1{font-size: 21px;}
+    .control_main span{font-size: 10px;}
+    .control_btn a{padding: .8rem .5rem;margin: 0 0.3rem;width: 9rem;}
+    .m-menu ul{padding-inline-start: 0;}
+}
